@@ -6,6 +6,9 @@ const nextConfig: NextConfig = {
     appIsrStatus: false,
     buildActivity: false,
   },
+  output: 'export',
+  basePath: '/GreenByte',
+  trailingSlash: true,
 };
 
 export default nextConfig;
