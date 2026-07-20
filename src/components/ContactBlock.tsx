@@ -61,15 +61,15 @@ export default function ContactBlock() {
     };
 
     return (
-        <section id="contact" className="pt-20 border-t border-white/10 mb-20 md:mb-40">
-            <div className="flex flex-col lg:flex-row justify-between gap-16 md:gap-20">
+        <section id="contact" className="pt-16 md:pt-20 border-t border-white/10 mb-16 md:mb-40">
+            <div className="flex flex-col lg:flex-row justify-between gap-12 md:gap-16 lg:gap-20">
 
                 {/* Contact Title */}
                 <div className="flex-1 w-full max-w-[500px]">
-                    <h2 className="text-4xl md:text-[50px] font-normal leading-[1.1] mb-8">
+                    <h2 className="text-3xl sm:text-4xl md:text-[50px] font-normal leading-[1.1] mb-5 md:mb-7 bg-gradient-to-br from-white to-white/55 bg-clip-text text-transparent">
                         {t.contact.title}
                     </h2>
-                    <p className="text-[20px] text-[#A3A3A3] font-light leading-relaxed">
+                    <p className="text-[17px] sm:text-[19px] md:text-[20px] text-[#A3A3A3] font-light leading-relaxed">
                         {t.contact.subtitle}
                     </p>
                 </div>
@@ -83,13 +83,13 @@ export default function ContactBlock() {
                             value={formData.name}
                             onChange={e => setFormData({ ...formData, name: e.target.value })}
                             type="text"
-                            className="w-full bg-transparent border-b border-[#333] pb-2 text-[16px] text-white focus:outline-none focus:border-white transition-colors"
+                            className="w-full bg-white/[0.03] border border-white/10 rounded-lg px-4 py-3 text-[16px] text-white placeholder-white/30 focus:outline-none focus:border-[#1ED760]/60 focus:bg-white/[0.05] transition-colors"
                         />
                     </div>
 
                     <div className="flex flex-col">
                         <label className="text-[13px] text-[#A3A3A3] mb-2">{t.contact.form.phone}</label>
-                        <div className="flex items-end border-b border-[#333] pb-2 focus-within:border-white transition-colors w-full space-x-3">
+                        <div className="flex items-end border border-white/10 rounded-lg px-4 py-3 focus-within:border-[#1ED760]/60 transition-colors w-full space-x-3 bg-white/[0.03]">
                             <div className="flex items-center space-x-2 pb-0.5">
                                 {/* Simplified distinct visual indicator simulating flag */}
                                 <span className="w-5 h-3.5 bg-gradient-to-b from-blue-400 via-white to-green-500 block rounded-[1px]"></span>
@@ -111,13 +111,13 @@ export default function ContactBlock() {
                             value={formData.telegram}
                             onChange={e => setFormData({ ...formData, telegram: e.target.value })}
                             type="text"
-                            className="w-full bg-transparent border-b border-[#333] pb-2 text-[16px] text-white focus:outline-none focus:border-white transition-colors"
+                            className="w-full bg-white/[0.03] border border-white/10 rounded-lg px-4 py-3 text-[16px] text-white placeholder-white/30 focus:outline-none focus:border-[#1ED760]/60 focus:bg-white/[0.05] transition-colors"
                         />
                     </div>
 
                     <div className="flex flex-col space-y-4">
                         <label className="text-[14px] text-white font-medium">{t.contact.form.contactMethod}</label>
-                        <div className="flex items-center space-x-12">
+                        <div className="flex items-center space-x-6 sm:space-x-12">
                             <label className="flex items-center space-x-3 cursor-pointer">
                                 <div
                                     className={`w-4 h-4 border ${contactMethod === 'telegram' ? 'border-[#FFB800] bg-transparent flex items-center justify-center flex-shrink-0' : 'border-[#333] bg-transparent flex-shrink-0'}`}
@@ -144,7 +144,7 @@ export default function ContactBlock() {
                         <select
                             value={formData.services}
                             onChange={e => setFormData({ ...formData, services: e.target.value })}
-                            className="w-full bg-transparent border-b border-[#333] pb-2 text-[16px] text-white focus:outline-none focus:border-white transition-colors cursor-pointer appearance-none"
+                            className="w-full bg-white/[0.03] border border-white/10 rounded-lg px-4 py-3 text-[16px] text-white focus:outline-none focus:border-[#1ED760]/60 transition-colors cursor-pointer appearance-none"
                         >
                             <option value="" disabled className="bg-[#111]">-- {language === 'uz' ? 'Tanlang' : language === 'ru' ? 'Выберите' : 'Select'} --</option>
                             {serviceOptions.map((opt, i) => (
@@ -159,7 +159,7 @@ export default function ContactBlock() {
                             value={formData.sphere}
                             onChange={e => setFormData({ ...formData, sphere: e.target.value })}
                             type="text"
-                            className="w-full bg-transparent border-b border-[#333] pb-2 text-[16px] text-white focus:outline-none focus:border-white transition-colors"
+                            className="w-full bg-white/[0.03] border border-white/10 rounded-lg px-4 py-3 text-[16px] text-white focus:outline-none focus:border-[#1ED760]/60 transition-colors"
                         />
                     </div>
 
@@ -169,7 +169,7 @@ export default function ContactBlock() {
                             value={formData.company}
                             onChange={e => setFormData({ ...formData, company: e.target.value })}
                             type="text"
-                            className="w-full bg-transparent border-b border-[#333] pb-2 text-[16px] text-white focus:outline-none focus:border-white transition-colors"
+                            className="w-full bg-white/[0.03] border border-white/10 rounded-lg px-4 py-3 text-[16px] text-white focus:outline-none focus:border-[#1ED760]/60 transition-colors"
                         />
                     </div>
 
@@ -178,7 +178,7 @@ export default function ContactBlock() {
                             value={formData.additionalInfo}
                             onChange={e => setFormData({ ...formData, additionalInfo: e.target.value })}
                             placeholder={t.contact.form.additionalInfo}
-                            className="w-full bg-transparent border border-[#333] p-4 text-[15px] text-white focus:outline-none focus:border-[#555] transition-colors resize-none h-[120px] rounded-sm"
+                            className="w-full bg-white/[0.03] border border-white/10 p-4 text-[15px] text-white focus:outline-none focus:border-[#1ED760]/60 transition-colors resize-none h-[120px] rounded-lg"
                         />
                     </div>
 

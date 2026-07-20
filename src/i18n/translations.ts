@@ -28,7 +28,7 @@ export const translations = {
                     id: 1,
                     niche: "Nishaviy parfumeriya",
                     brand: "Begim Perfumes",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Sotuvlarni 350% ga oshirdik",
                         "Reklama xarajatlarini optimallashtirib, 30% ga qisqartirdik",
@@ -40,7 +40,7 @@ export const translations = {
                     id: 2,
                     niche: "Korporativ logistika",
                     brand: "Transasia Customs",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Proseslarni avtomatlashtirish orqali vaqtni tejadik",
                         "Saytning to'liq ko'p tilli versiyasi joriy etildi",
@@ -53,7 +53,16 @@ export const translations = {
         clients: {
             title: "Bizning mijozlar",
             desc: "Bozor yetakchilari bizga ishonishadi",
-            list: ["1", "2", "3", "4", "5", "6", "7", "8"]
+            list: [
+                { label: "COCA", icon: "landmark" },
+                { label: "UIC", icon: "lineChart" },
+                { label: "IT Park", icon: "code" },
+                { label: "NAPA", icon: "shieldCheck" },
+                { label: "ZOOD", icon: "rocket" },
+                { label: "On", icon: "wallet" },
+                { label: "Click", icon: "cloud" },
+                { label: "IT Time", icon: "database" }
+            ]
         },
         servicesTeaser: {
             mainTitle: "Xizmatlar",
@@ -79,22 +88,22 @@ export const translations = {
                 {
                     num: "1",
                     title: "Narxlar bilan tanishing",
-                    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "2",
                     title: "Arizani yuboring",
-                    image: "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "3",
                     title: "Uchrashuv va brifing",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "4",
                     title: "Loyihani ishga tushirish",
-                    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
                 }
             ]
         },
@@ -124,7 +133,7 @@ export const translations = {
                     title: "Lending sayt",
                     text1: "Lending — bu sizning mahsulot yoki xizmatlaringizni taqdim etish uchun maxsus ishlab chiqilgan bir sahifali veb-sayt yoki tashrif qog'ozi.",
                     text2: "Biz marketing strategiyasiga, o'ziga xos dizayn va tezkorlikka e'tibor qaratamiz.",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 2 haftadan",
                     price: "5 000 000 so'mdan"
                 },
@@ -132,7 +141,7 @@ export const translations = {
                     title: "Ko'p sahifali sayt",
                     text1: "Kompaniyaning obro'sini oshiradigan, mijozlar va hamkorlarda ishonch uyg'otadigan kuchli resurs.",
                     text2: "Unda kompaniyangiz haqidagi to'liq ma'lumotlar, mahsulot va xizmat turlari joylanadi.",
-                    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 4 haftadan",
                     price: "12 000 000 so'mdan"
                 }
@@ -147,14 +156,14 @@ export const translations = {
                     category: "Ta'lim xizmatlari",
                     title: "Reviver Djs Academy",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     results: ["Shaxsiy UI dizayn", "Lid magnit integratsiyasi", "Yuqori konversiya"]
                 },
                 {
                     category: "Korporativ logistika",
                     title: "Transasia Customs",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: ["Avtomatlashtirish", "Ko'p tilli platforma", "CRM tizim"]
                 }
             ]
@@ -194,7 +203,7 @@ export const translations = {
                     id: 1,
                     niche: "Нишевая парфюмерия",
                     brand: "Begim Perfumes",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Увеличили продажи на 350%",
                         "Оптимизировали и сократили рекламные расходы на 30%",
@@ -206,7 +215,7 @@ export const translations = {
                     id: 2,
                     niche: "Корпоративная логистика",
                     brand: "Transasia Customs",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Автоматизация бизнес процессов и экономия времени",
                         "Реализована мультиязычность для всех страниц сайта",
@@ -219,7 +228,16 @@ export const translations = {
         clients: {
             title: "Наши клиенты",
             desc: "Нам доверяют лидеры рынка",
-            list: ["1", "2", "3", "4", "5", "6", "7", "8"]
+            list: [
+                { label: "COCA", icon: "landmark" },
+                { label: "UIC", icon: "lineChart" },
+                { label: "IT Park", icon: "code" },
+                { label: "NAPA", icon: "shieldCheck" },
+                { label: "ZOOD", icon: "rocket" },
+                { label: "On", icon: "wallet" },
+                { label: "Click", icon: "cloud" },
+                { label: "IT Time", icon: "database" }
+            ]
         },
         servicesTeaser: {
             mainTitle: "Услуги",
@@ -245,22 +263,22 @@ export const translations = {
                 {
                     num: "1",
                     title: "Ознакомьтесь с ценами",
-                    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "2",
                     title: "Отправьте заявку",
-                    image: "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "3",
                     title: "Встреча и брифинг",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "4",
                     title: "Запуск проекта",
-                    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
                 }
             ]
         },
@@ -290,7 +308,7 @@ export const translations = {
                     title: "Лендинг сайт",
                     text1: "Лендинг — одностраничный сайт или сайт-визитка, разработанный для презентации ваших продуктов или услуг.",
                     text2: "При разработке мы фокусируемся на маркетинговой структуре, уникальном дизайне.",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 2 недель",
                     price: "от 5 000 000 сум",
                 },
@@ -298,7 +316,7 @@ export const translations = {
                     title: "Многостраничный сайт",
                     text1: "Сайт из нескольких страниц — ресурс, играющий ключевую роль в формировании доверия.",
                     text2: "Содержит разделы: о компании, продукты или услуги, портфолио, контакты.",
-                    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 4 недель",
                     price: "от 12 000 000 сум",
                 }
@@ -313,14 +331,14 @@ export const translations = {
                     category: "Обучение",
                     title: "Сайт для курсов Reviver",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     results: ["Создан лендинг", "Интеграция CRM", "SEO-оптимизация"]
                 },
                 {
                     category: "Логистика",
                     title: "Transasia Customs",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: ["Автоматизация", "Мультиязычность", "B2B клиенты"]
                 }
             ]
@@ -360,7 +378,7 @@ export const translations = {
                     id: 1,
                     niche: "Niche Perfumery",
                     brand: "Begim Perfumes",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Increased sales by 350%",
                         "Optimized and reduced ad spend by 30%",
@@ -372,7 +390,7 @@ export const translations = {
                     id: 2,
                     niche: "Corporate Logistics",
                     brand: "Transasia Customs",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Automated processes, saving tremendous man-hours",
                         "Deployed fully multi-lingual corporate portal",
@@ -385,7 +403,16 @@ export const translations = {
         clients: {
             title: "Our Clients",
             desc: "Market leaders trust us",
-            list: ["1", "2", "3", "4", "5", "6", "7", "8"]
+            list: [
+                { label: "COCA", icon: "landmark" },
+                { label: "UIC", icon: "lineChart" },
+                { label: "IT Park", icon: "code" },
+                { label: "NAPA", icon: "shieldCheck" },
+                { label: "ZOOD", icon: "rocket" },
+                { label: "On", icon: "wallet" },
+                { label: "Click", icon: "cloud" },
+                { label: "IT Time", icon: "database" }
+            ]
         },
         servicesTeaser: {
             mainTitle: "Services",
@@ -411,22 +438,22 @@ export const translations = {
                 {
                     num: "1",
                     title: "Review Prices",
-                    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "2",
                     title: "Submit a Request",
-                    image: "https://images.unsplash.com/photo-1517142089942-ba376ce32a2e?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "3",
                     title: "Meeting & Briefing",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
                 },
                 {
                     num: "4",
                     title: "Project Launch",
-                    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80"
+                    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80"
                 }
             ]
         },
@@ -456,7 +483,7 @@ export const translations = {
                     title: "Landing Page",
                     text1: "A landing page is a single-page website developed to present your products or services.",
                     text2: "During development, we focus on marketing structure, unique design.",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 2 weeks",
                     price: "from 5,000,000 UZS",
                 },
@@ -464,7 +491,7 @@ export const translations = {
                     title: "Multi-page Website",
                     text1: "A multi-page site reflects values and professional level.",
                     text2: "It contains sections like about us, products, portfolio, contacts.",
-                    image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 4 weeks",
                     price: "from 12,000,000 UZS",
                 }
@@ -479,14 +506,14 @@ export const translations = {
                     category: "Education",
                     title: "Reviver TDs Academy",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     results: ["UI Implementation", "CRM Pipeline", "SEO Optimisation"]
                 },
                 {
                     category: "Logistics",
                     title: "Transasia Customs",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: ["Dashboard Analytics", "Admin Portal", "B2B Flow Integration"]
                 }
             ]
