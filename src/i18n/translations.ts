@@ -165,7 +165,7 @@ export const translations = {
                     title: "Telegram-bot",
                     text1: "Avtomatlashtirilgan mijozlar bilan ishlash, qabul qilish va hisobotlar uchun qulay bot yechimlari.",
                     text2: "Sotuv voronkasini avtomatlashtirish va mijozlarni ushlab qolish funksiyalari.",
-                    image: "https://images.unsplash.com/photo-1611746872915-64382b5c763a?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 2 haftadan",
                     price: "5 000 000 so'mdan"
                 },
@@ -189,7 +189,7 @@ export const translations = {
                     title: "IT yordam",
                     text1: "Serverlar, domenlar va hosting xizmatlarini boshqarish. Texnik xizmat ko'rsatish va kuzatuv.",
                     text2: "24/7 qo'llab-quvvatlash, xavfsizlik yangilashlari va ishonchli backup.",
-                    image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — Abonent",
                     price: "10 000 000 so'mdan"
                 }
@@ -402,7 +402,7 @@ export const translations = {
                     title: "Telegram-бот",
                     text1: "Удобные решения для автоматизированной работы с клиентами, приема заявок и отчетности.",
                     text2: "Автоматизация воронки продаж и удержание клиентов.",
-                    image: "https://images.unsplash.com/photo-1611746872915-64382b5c763a?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 2 недель",
                     price: "от 5 000 000 сум",
                 },
@@ -426,7 +426,7 @@ export const translations = {
                     title: "IT-поддержка",
                     text1: "Управление серверами, доменами и хостингом. Техническое обслуживание и мониторинг.",
                     text2: "Поддержка 24/7, обновления безопасности и надежное резервное копирование.",
-                    image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — Абонент",
                     price: "от 10 000 000 сум",
                 }
@@ -639,7 +639,7 @@ export const translations = {
                     title: "Telegram Bot",
                     text1: "Convenient solutions for automated customer service, request processing and reporting.",
                     text2: "Sales funnel automation and customer retention features.",
-                    image: "https://images.unsplash.com/photo-1611746872915-64382b5c763a?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 2 weeks",
                     price: "from 5,000,000 UZS",
                 },
@@ -663,7 +663,7 @@ export const translations = {
                     title: "IT Support",
                     text1: "Management of servers, domains and hosting. Maintenance and monitoring services.",
                     text2: "24/7 support, security updates and reliable backup solutions.",
-                    image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — Subscription",
                     price: "from 10,000,000 UZS",
                 }
