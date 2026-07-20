@@ -28,7 +28,7 @@ export const translations = {
                     id: 1,
                     niche: "Nishaviy parfumeriya",
                     brand: "Begim Perfumes",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                     image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Sotuvlarni 350% ga oshirdik",
                         "Reklama xarajatlarini optimallashtirib, 30% ga qisqartirdik",
@@ -265,7 +265,7 @@ export const translations = {
                     id: 1,
                     niche: "Нишевая парфюмерия",
                     brand: "Begim Perfumes",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                     image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Увеличили продажи на 350%",
                         "Оптимизировали и сократили рекламные расходы на 30%",
@@ -502,7 +502,7 @@ export const translations = {
                     id: 1,
                     niche: "Niche Perfumery",
                     brand: "Begim Perfumes",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                     image: "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=80",
                     results: [
                         "Increased sales by 350%",
                         "Optimized and reduced ad spend by 30%",
