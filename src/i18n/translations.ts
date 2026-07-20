@@ -133,7 +133,7 @@ export const translations = {
                     title: "Lending sayt",
                     text1: "Lending — bu mahsulot yoki xizmatlaringizni taqdim etish uchun maxsus ishlab chiqilgan bir sahifali veb-sayt. Biz marketing strategiyasi, o'ziga xos dizayn va tezkorlikka e'tibor qaratamiz.",
                     text2: "Har bir loyihada maqsadli auditoriya tahlili va konversiya optimallashtirishni amalga oshiramiz.",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 2 haftadan",
                     price: "5 000 000 so'mdan"
                 },
@@ -141,7 +141,7 @@ export const translations = {
                     title: "Ko'p sahifali sayt",
                     text1: "Kompaniyaning obro'sini oshiradigan, mijozlar va hamkorlarda ishonch uyg'otadigan kuchli resurs. To'liq ma'lumotlar, mahsulot va xizmat turlari joylanadi.",
                     text2: "Biz korporativ identifikatsiya va foydalanuvchi qulayligi tamoyillariga asoslanamiz.",
-                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 4 haftadan",
                     price: "12 000 000 so'mdan"
                 },
@@ -149,7 +149,7 @@ export const translations = {
                     title: "Katalog sayti",
                     text1: "Mahsulot yoki xizmatlar katalogini Internetda chop etish uchun mo'ljallangan sayt. To'liq filtratsiya, qidiruv va savat funksiyalari bilan.",
                     text2: "Ichki qidiruv tizimi, mahsulot kartochkalari va admin paneli bilan yetkazib beramiz.",
-                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 6 haftadan",
                     price: "20 000 000 so'mdan"
                 },
@@ -157,7 +157,7 @@ export const translations = {
                     title: "Onlayn do'kon",
                     text1: "To'lov integratsiyasi, mahsulot boshqaruvi va buyurtma tizimiga ega to'liq funksional elektron tijorat platformasi.",
                     text2: "Click, Payme va boshqa to'lov tizimlarini integratsiya qilamiz.",
-                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 8 haftadan",
                     price: "30 000 000 so'mdan"
                 },
@@ -204,21 +204,21 @@ export const translations = {
                     category: "Ta'lim xizmatlari",
                     title: "Reviver Djs Academy",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1200&q=80",
                     results: ["Shaxsiy UI dizayn", "Lid magnit integratsiyasi", "Yuqori konversiya"]
                 },
                 {
                     category: "Korporativ logistika",
                     title: "Transasia Customs",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
                     results: ["Avtomatlashtirish", "Ko'p tilli platforma", "CRM tizim"]
                 },
                 {
                     category: "Restoranlar va kafe",
                     title: "Flavor House",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
                     results: ["Online buyurtma tizimi", "QR menyu integratsiya", "Mijozlar bazasi"]
                 },
                 {
@@ -370,7 +370,7 @@ export const translations = {
                     title: "Лендинг сайт",
                     text1: "Лендинг — одностраничный сайт или сайт-визитка, разработанный для презентации ваших продуктов или услуг.",
                     text2: "При разработке мы фокусируемся на маркетинговой структуре, уникальном дизайне и высокой скорости загрузки.",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 2 недель",
                     price: "от 5 000 000 сум",
                 },
@@ -378,7 +378,7 @@ export const translations = {
                     title: "Многостраничный сайт",
                     text1: "Сайт из нескольких страниц — ресурс, играющий ключевую роль в формировании доверия к бренду.",
                     text2: "Содержит разделы: о компании, продукты или услуги, портфолио, контакты.",
-                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 4 недель",
                     price: "от 12 000 000 сум",
                 },
@@ -386,7 +386,7 @@ export const translations = {
                     title: "Сайт-каталог",
                     text1: "Публикация каталога продуктов или услуг в Интернете с расширенной фильтрацией и поиском.",
                     text2: "Встроенная корзина, карточки товаров и административная панель.",
-                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 6 недель",
                     price: "от 20 000 000 сум",
                 },
@@ -394,7 +394,7 @@ export const translations = {
                     title: "Интернет-магазин",
                     text1: "Полнофункциональная электронная торговая платформа с интеграцией платежей и управления заказами.",
                     text2: "Интеграция Click, Payme и других платежных систем.",
-                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 8 недель",
                     price: "от 30 000 000 сум",
                 },
@@ -441,21 +441,21 @@ export const translations = {
                     category: "Обучение",
                     title: "Сайт для курсов Reviver",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1200&q=80",
                     results: ["Создан лендинг", "Интеграция CRM", "SEO-оптимизация"]
                 },
                 {
                     category: "Логистика",
                     title: "Transasia Customs",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
                     results: ["Автоматизация", "Мультиязычность", "B2B клиенты"]
                 },
                 {
                     category: "Рестораны и кафе",
                     title: "Flavor House",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
                     results: ["Система онлайн-заказов", "QR-меню", "База клиентов"]
                 },
                 {
@@ -607,7 +607,7 @@ export const translations = {
                     title: "Landing Page",
                     text1: "A landing page is a single-page website developed to present your products or services.",
                     text2: "During development, we focus on marketing structure, unique design and fast performance.",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 2 weeks",
                     price: "from 5,000,000 UZS",
                 },
@@ -615,7 +615,7 @@ export const translations = {
                     title: "Multi-page Website",
                     text1: "A multi-page site reflects values and professional level, building brand trust.",
                     text2: "Contains sections: about us, products or services, portfolio, contacts.",
-                    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 4 weeks",
                     price: "from 12,000,000 UZS",
                 },
@@ -623,7 +623,7 @@ export const translations = {
                     title: "Catalog Site",
                     text1: "A website designed to publish your product or service catalog online with advanced filtering and search.",
                     text2: "Built-in shopping cart, product cards and admin panel included.",
-                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 6 weeks",
                     price: "from 20,000,000 UZS",
                 },
@@ -631,7 +631,7 @@ export const translations = {
                     title: "Online Store",
                     text1: "A fully functional e-commerce platform with payment integration and order management.",
                     text2: "We integrate Click, Payme and other payment systems.",
-                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 8 weeks",
                     price: "from 30,000,000 UZS",
                 },
@@ -678,21 +678,21 @@ export const translations = {
                     category: "Education",
                     title: "Reviver TDs Academy",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?auto=format&fit=crop&w=1200&q=80",
                     results: ["UI Implementation", "CRM Pipeline", "SEO Optimisation"]
                 },
                 {
                     category: "Logistics",
                     title: "Transasia Customs",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1200&q=80",
                     results: ["Dashboard Analytics", "Admin Portal", "B2B Flow Integration"]
                 },
                 {
                     category: "Restaurants",
                     title: "Flavor House",
                     link: "#",
-                    image: "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1200&q=80",
+                    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=80",
                     results: ["Online Ordering System", "QR Menu Integration", "Customer Database"]
                 },
                 {

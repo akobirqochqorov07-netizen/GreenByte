@@ -145,7 +145,7 @@ export default function Home() {
 
         {/* ── SUCCESS STORIES SLIDER ── */}
         <section className="mb-24 md:mb-40 pt-10 border-t border-white/10">
-          <h2 className="text-3xl sm:text-4xl md:text-[70px] lg:text-[85px] font-normal leading-[1.04] tracking-tight max-w-[1000px] mb-12 md:mb-20 whitespace-pre-wrap">
+          <h2 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal leading-[1.04] tracking-tight max-w-[1000px] mb-12 md:mb-20 whitespace-pre-wrap">
             <span className="block">{t.successStories.title}</span>
             <span className="block text-white/50">{t.successStories.subtitle}</span>
           </h2>
@@ -218,7 +218,7 @@ export default function Home() {
         <section className="mb-24 md:mb-40">
           <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 border-b border-white/5 pb-16 md:pb-20">
             <div className="w-full lg:w-[40%]">
-              <h2 className="text-3xl sm:text-4xl md:text-[50px] font-normal mb-4">{t.clients.title}</h2>
+              <h2 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal mb-4">{t.clients.title}</h2>
               <p className="text-[#A3A3A3] text-[16px] sm:text-[17px] font-light leading-relaxed">{t.clients.desc}</p>
             </div>
 
@@ -258,7 +258,7 @@ export default function Home() {
 
         {/* ── SERVICES TEASER ── */}
         <section className="mb-24 md:mb-40">
-          <h2 className="text-4xl sm:text-[50px] md:text-[80px] font-normal leading-[1] mb-5 tracking-tight">
+          <h2 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal leading-[1] mb-5 tracking-tight">
             {t.servicesTeaser.mainTitle}
           </h2>
           <div className="text-[17px] sm:text-[20px] md:text-[24px] text-[#A3A3A3] font-light border-b border-white/20 pb-10 md:pb-12 mb-12 md:mb-16">
@@ -267,7 +267,7 @@ export default function Home() {
 
           <div className="flex flex-col lg:flex-row justify-between pt-4 border-b border-white/5 pb-16 md:pb-20 gap-10 lg:gap-16">
             <div className="w-full lg:w-[45%] mb-8 lg:mb-0">
-              <h3 className="text-4xl sm:text-5xl md:text-[60px] font-normal leading-[1.04] bg-gradient-to-br from-white to-white/50 bg-clip-text text-transparent">
+              <h3 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal leading-[1.04] bg-gradient-to-br from-white to-white/50 bg-clip-text text-transparent">
                 {t.servicesTeaser.devCategory}
               </h3>
             </div>
@@ -298,7 +298,7 @@ export default function Home() {
 
         {/* ── WORKFLOW TABS ── */}
         <section className="mb-20 md:mb-32">
-          <h2 className="text-4xl sm:text-[50px] md:text-[80px] font-normal leading-[1] mb-6 md:mb-8 tracking-tight">
+          <h2 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal leading-[1] mb-6 md:mb-8 tracking-tight">
             {t.workflow.title}
           </h2>
           <p className="text-[#A3A3A3] text-[16px] sm:text-[18px] md:text-[20px] font-light leading-[1.6] max-w-[800px] mb-12 md:mb-20">

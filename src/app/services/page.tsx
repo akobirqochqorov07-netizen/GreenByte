@@ -45,7 +45,7 @@ export default function ServicesPage() {
             initial={{ opacity: 0, y: 24 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-            className="text-[2.4rem] leading-[1.05] sm:text-5xl md:text-[80px] font-normal tracking-tight mb-6 md:mb-8 max-w-[14ch]"
+            className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal tracking-tight mb-6 md:mb-8 max-w-[14ch]"
           >
             {t.hero.title}
           </motion.h1>
@@ -61,7 +61,7 @@ export default function ServicesPage() {
 
         {/* SERVICES */}
         <section id="services" className="mb-24 md:mb-48">
-          <h2 className="text-4xl sm:text-[50px] md:text-[80px] font-normal mb-12 md:mb-20 tracking-tight border-b border-white/10 pb-8 md:pb-10">
+          <h2 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal mb-12 md:mb-20 tracking-tight border-b border-white/10 pb-8 md:pb-10">
             {t.services.title}
           </h2>
           <div className="space-y-16 md:space-y-32">
@@ -74,7 +74,7 @@ export default function ServicesPage() {
                 className="flex flex-col lg:flex-row items-start justify-between gap-10 lg:gap-20 border-b border-white/10 pb-14 md:pb-20"
               >
                 <motion.div variants={fadeUp} custom={0} className="flex-1 w-full">
-                  <h2 className="text-3xl sm:text-4xl md:text-[40px] font-normal mb-6 md:mb-8 leading-tight">{service.title}</h2>
+                   <h2 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal mb-6 md:mb-8 leading-tight">{service.title}</h2>
                   <div className="space-y-4 md:space-y-5 text-[#A3A3A3] text-[15px] sm:text-[16px] md:text-[18px] leading-[1.6] font-light mb-8 md:mb-10">
                     <p>{service.text1}</p>
                     <p>{service.text2}</p>
@@ -111,7 +111,7 @@ export default function ServicesPage() {
 
         {/* PROJECTS */}
         <section id="projects" className="pt-16 md:pt-20 mb-24 md:mb-48">
-          <h2 className="text-3xl sm:text-[40px] font-normal mb-12 md:mb-20 tracking-tight">{t.projects.title}</h2>
+          <h2 className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal mb-12 md:mb-20 tracking-tight">{t.projects.title}</h2>
           <div className="space-y-16 md:space-y-32">
             {t.projects.list.map((project, idx) => (
               <motion.div
@@ -124,9 +124,9 @@ export default function ServicesPage() {
                 <motion.h4 variants={fadeUp} custom={0} className="text-[13px] text-[#1ED760] font-light tracking-[0.18em] uppercase mb-4">
                   {project.category}
                 </motion.h4>
-                <motion.h3 variants={fadeUp} custom={1} className="text-3xl sm:text-[32px] md:text-[40px] font-normal leading-[1.1] tracking-tight mb-6 md:mb-8">
-                  {project.title}
-                </motion.h3>
+                 <motion.h3 variants={fadeUp} custom={1} className="text-[2.6rem] leading-[1.04] sm:text-5xl md:text-[64px] font-normal leading-[1.1] tracking-tight mb-6 md:mb-8">
+                   {project.title}
+                 </motion.h3>
                 <motion.div variants={fadeUp} custom={2} className="mb-8 md:mb-12">
                   <a href={project.link} className="inline-block text-[15px] font-light border-b border-white/30 pb-1 hover:border-white transition-colors">
                     {t.projects.viewSite}
