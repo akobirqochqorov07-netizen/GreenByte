@@ -54,14 +54,14 @@ export const translations = {
             title: "Bizning mijozlar",
             desc: "Bozor yetakchilari bizga ishonishadi",
             list: [
-                { label: "COCA", icon: "landmark" },
-                { label: "UIC", icon: "lineChart" },
-                { label: "IT Park", icon: "code" },
-                { label: "NAPA", icon: "shieldCheck" },
-                { label: "ZOOD", icon: "rocket" },
-                { label: "On", icon: "wallet" },
-                { label: "Click", icon: "cloud" },
-                { label: "IT Time", icon: "database" }
+                { label: "Google", logo: "https://cdn.simpleicons.org/google/A3A3A3" },
+                { label: "Microsoft", logo: "https://cdn.simpleicons.org/microsoft/A3A3A3" },
+                { label: "Amazon", logo: "https://cdn.simpleicons.org/amazon/A3A3A3" },
+                { label: "Meta", logo: "https://cdn.simpleicons.org/meta/A3A3A3" },
+                { label: "Apple", logo: "https://cdn.simpleicons.org/apple/A3A3A3" },
+                { label: "Netflix", logo: "https://cdn.simpleicons.org/netflix/A3A3A3" },
+                { label: "Spotify", logo: "https://cdn.simpleicons.org/spotify/A3A3A3" },
+                { label: "Tesla", logo: "https://cdn.simpleicons.org/tesla/A3A3A3" }
             ]
         },
         servicesTeaser: {
@@ -131,19 +131,67 @@ export const translations = {
             list: [
                 {
                     title: "Lending sayt",
-                    text1: "Lending — bu sizning mahsulot yoki xizmatlaringizni taqdim etish uchun maxsus ishlab chiqilgan bir sahifali veb-sayt yoki tashrif qog'ozi.",
-                    text2: "Biz marketing strategiyasiga, o'ziga xos dizayn va tezkorlikka e'tibor qaratamiz.",
+                    text1: "Lending — bu mahsulot yoki xizmatlaringizni taqdim etish uchun maxsus ishlab chiqilgan bir sahifali veb-sayt. Biz marketing strategiyasi, o'ziga xos dizayn va tezkorlikka e'tibor qaratamiz.",
+                    text2: "Har bir loyihada maqsadli auditoriya tahlili va konversiya optimallashtirishni amalga oshiramiz.",
                     image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 2 haftadan",
                     price: "5 000 000 so'mdan"
                 },
                 {
                     title: "Ko'p sahifali sayt",
-                    text1: "Kompaniyaning obro'sini oshiradigan, mijozlar va hamkorlarda ishonch uyg'otadigan kuchli resurs.",
-                    text2: "Unda kompaniyangiz haqidagi to'liq ma'lumotlar, mahsulot va xizmat turlari joylanadi.",
+                    text1: "Kompaniyaning obro'sini oshiradigan, mijozlar va hamkorlarda ishonch uyg'otadigan kuchli resurs. To'liq ma'lumotlar, mahsulot va xizmat turlari joylanadi.",
+                    text2: "Biz korporativ identifikatsiya va foydalanuvchi qulayligi tamoyillariga asoslanamiz.",
                     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
                     time: "Muddat — 4 haftadan",
                     price: "12 000 000 so'mdan"
+                },
+                {
+                    title: "Katalog sayti",
+                    text1: "Mahsulot yoki xizmatlar katalogini Internetda chop etish uchun mo'ljallangan sayt. To'liq filtratsiya, qidiruv va savat funksiyalari bilan.",
+                    text2: "Ichki qidiruv tizimi, mahsulot kartochkalari va admin paneli bilan yetkazib beramiz.",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    time: "Muddat — 6 haftadan",
+                    price: "20 000 000 so'mdan"
+                },
+                {
+                    title: "Onlayn do'kon",
+                    text1: "To'lov integratsiyasi, mahsulot boshqaruvi va buyurtma tizimiga ega to'liq funksional elektron tijorat platformasi.",
+                    text2: "Click, Payme va boshqa to'lov tizimlarini integratsiya qilamiz.",
+                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+                    time: "Muddat — 8 haftadan",
+                    price: "30 000 000 so'mdan"
+                },
+                {
+                    title: "Telegram-bot",
+                    text1: "Avtomatlashtirilgan mijozlar bilan ishlash, qabul qilish va hisobotlar uchun qulay bot yechimlari.",
+                    text2: "Sotuv voronkasini avtomatlashtirish va mijozlarni ushlab qolish funksiyalari.",
+                    image: "https://images.unsplash.com/photo-1611746872915-64382b5c763a?auto=format&fit=crop&w=1200&q=80",
+                    time: "Muddat — 2 haftadan",
+                    price: "5 000 000 so'mdan"
+                },
+                {
+                    title: "Mobil ilova",
+                    text1: "iOS va Android uchun maxsus ishlab chiqilgan mobil ilovalar. Yuqori yuklash tezligi va intuitiv interfeys.",
+                    text2: "Cross-platform yechimlar yoki native ilovalar, App Store va Google Play ga joylashtirish.",
+                    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+                    time: "Muddat — 3 oydan",
+                    price: "100 000 000 so'mdan"
+                },
+                {
+                    title: "SEO optimizatsiya",
+                    text1: "Qidiruv tizimlarida yuqori o'rinlarni egallash uchun kompleks optimallashtirish ishlari.",
+                    text2: "Texnik SEO, kontent optimallashtirish va tashqi havola strategiyasi.",
+                    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80",
+                    time: "Muddat — 1 oydan",
+                    price: "5 000 000 so'mdan"
+                },
+                {
+                    title: "IT yordam",
+                    text1: "Serverlar, domenlar va hosting xizmatlarini boshqarish. Texnik xizmat ko'rsatish va kuzatuv.",
+                    text2: "24/7 qo'llab-quvvatlash, xavfsizlik yangilashlari va ishonchli backup.",
+                    image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=1200&q=80",
+                    time: "Muddat — Abonent",
+                    price: "10 000 000 so'mdan"
                 }
             ]
         },
@@ -165,6 +213,20 @@ export const translations = {
                     link: "#",
                     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: ["Avtomatlashtirish", "Ko'p tilli platforma", "CRM tizim"]
+                },
+                {
+                    category: "Restoranlar va kafe",
+                    title: "Flavor House",
+                    link: "#",
+                    image: "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1200&q=80",
+                    results: ["Online buyurtma tizimi", "QR menyu integratsiya", "Mijozlar bazasi"]
+                },
+                {
+                    category: "Sog'liqni saqlash",
+                    title: "MediCare Clinic",
+                    link: "#",
+                    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+                    results: ["Online qabul yozuvi", "Shifokor profillari", "Telemeditsina paneli"]
                 }
             ]
         },
@@ -229,14 +291,14 @@ export const translations = {
             title: "Наши клиенты",
             desc: "Нам доверяют лидеры рынка",
             list: [
-                { label: "COCA", icon: "landmark" },
-                { label: "UIC", icon: "lineChart" },
-                { label: "IT Park", icon: "code" },
-                { label: "NAPA", icon: "shieldCheck" },
-                { label: "ZOOD", icon: "rocket" },
-                { label: "On", icon: "wallet" },
-                { label: "Click", icon: "cloud" },
-                { label: "IT Time", icon: "database" }
+                { label: "Google", logo: "https://cdn.simpleicons.org/google/A3A3A3" },
+                { label: "Microsoft", logo: "https://cdn.simpleicons.org/microsoft/A3A3A3" },
+                { label: "Amazon", logo: "https://cdn.simpleicons.org/amazon/A3A3A3" },
+                { label: "Meta", logo: "https://cdn.simpleicons.org/meta/A3A3A3" },
+                { label: "Apple", logo: "https://cdn.simpleicons.org/apple/A3A3A3" },
+                { label: "Netflix", logo: "https://cdn.simpleicons.org/netflix/A3A3A3" },
+                { label: "Spotify", logo: "https://cdn.simpleicons.org/spotify/A3A3A3" },
+                { label: "Tesla", logo: "https://cdn.simpleicons.org/tesla/A3A3A3" }
             ]
         },
         servicesTeaser: {
@@ -307,18 +369,66 @@ export const translations = {
                 {
                     title: "Лендинг сайт",
                     text1: "Лендинг — одностраничный сайт или сайт-визитка, разработанный для презентации ваших продуктов или услуг.",
-                    text2: "При разработке мы фокусируемся на маркетинговой структуре, уникальном дизайне.",
+                    text2: "При разработке мы фокусируемся на маркетинговой структуре, уникальном дизайне и высокой скорости загрузки.",
                     image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 2 недель",
                     price: "от 5 000 000 сум",
                 },
                 {
                     title: "Многостраничный сайт",
-                    text1: "Сайт из нескольких страниц — ресурс, играющий ключевую роль в формировании доверия.",
+                    text1: "Сайт из нескольких страниц — ресурс, играющий ключевую роль в формировании доверия к бренду.",
                     text2: "Содержит разделы: о компании, продукты или услуги, портфолио, контакты.",
                     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
                     time: "Срок — от 4 недель",
                     price: "от 12 000 000 сум",
+                },
+                {
+                    title: "Сайт-каталог",
+                    text1: "Публикация каталога продуктов или услуг в Интернете с расширенной фильтрацией и поиском.",
+                    text2: "Встроенная корзина, карточки товаров и административная панель.",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    time: "Срок — от 6 недель",
+                    price: "от 20 000 000 сум",
+                },
+                {
+                    title: "Интернет-магазин",
+                    text1: "Полнофункциональная электронная торговая платформа с интеграцией платежей и управления заказами.",
+                    text2: "Интеграция Click, Payme и других платежных систем.",
+                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+                    time: "Срок — от 8 недель",
+                    price: "от 30 000 000 сум",
+                },
+                {
+                    title: "Telegram-бот",
+                    text1: "Удобные решения для автоматизированной работы с клиентами, приема заявок и отчетности.",
+                    text2: "Автоматизация воронки продаж и удержание клиентов.",
+                    image: "https://images.unsplash.com/photo-1611746872915-64382b5c763a?auto=format&fit=crop&w=1200&q=80",
+                    time: "Срок — от 2 недель",
+                    price: "от 5 000 000 сум",
+                },
+                {
+                    title: "Мобильное приложение",
+                    text1: "Нативные мобильные приложения для iOS и Android с высоким быстродействием и интуитивным интерфейсом.",
+                    text2: "Кроссплатформенные решения или нативные приложения, публикация в App Store и Google Play.",
+                    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+                    time: "Срок — от 3 месяцев",
+                    price: "от 100 000 000 сум",
+                },
+                {
+                    title: "SEO-продвижение",
+                    text1: "Комплексные работы по оптимизации для поисковых систем для получения высоких позиций.",
+                    text2: "Техническое SEO, контент-оптимизация и стратегия внешних ссылок.",
+                    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80",
+                    time: "Срок — от 1 месяца",
+                    price: "от 5 000 000 сум",
+                },
+                {
+                    title: "IT-поддержка",
+                    text1: "Управление серверами, доменами и хостингом. Техническое обслуживание и мониторинг.",
+                    text2: "Поддержка 24/7, обновления безопасности и надежное резервное копирование.",
+                    image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=1200&q=80",
+                    time: "Срок — Абонент",
+                    price: "от 10 000 000 сум",
                 }
             ]
         },
@@ -340,6 +450,20 @@ export const translations = {
                     link: "#",
                     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: ["Автоматизация", "Мультиязычность", "B2B клиенты"]
+                },
+                {
+                    category: "Рестораны и кафе",
+                    title: "Flavor House",
+                    link: "#",
+                    image: "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1200&q=80",
+                    results: ["Система онлайн-заказов", "QR-меню", "База клиентов"]
+                },
+                {
+                    category: "Здравоохранение",
+                    title: "MediCare Clinic",
+                    link: "#",
+                    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+                    results: ["Онлайн-запись на прием", "Профили врачей", "Телемедицинская панель"]
                 }
             ]
         },
@@ -404,14 +528,14 @@ export const translations = {
             title: "Our Clients",
             desc: "Market leaders trust us",
             list: [
-                { label: "COCA", icon: "landmark" },
-                { label: "UIC", icon: "lineChart" },
-                { label: "IT Park", icon: "code" },
-                { label: "NAPA", icon: "shieldCheck" },
-                { label: "ZOOD", icon: "rocket" },
-                { label: "On", icon: "wallet" },
-                { label: "Click", icon: "cloud" },
-                { label: "IT Time", icon: "database" }
+                { label: "Google", logo: "https://cdn.simpleicons.org/google/A3A3A3" },
+                { label: "Microsoft", logo: "https://cdn.simpleicons.org/microsoft/A3A3A3" },
+                { label: "Amazon", logo: "https://cdn.simpleicons.org/amazon/A3A3A3" },
+                { label: "Meta", logo: "https://cdn.simpleicons.org/meta/A3A3A3" },
+                { label: "Apple", logo: "https://cdn.simpleicons.org/apple/A3A3A3" },
+                { label: "Netflix", logo: "https://cdn.simpleicons.org/netflix/A3A3A3" },
+                { label: "Spotify", logo: "https://cdn.simpleicons.org/spotify/A3A3A3" },
+                { label: "Tesla", logo: "https://cdn.simpleicons.org/tesla/A3A3A3" }
             ]
         },
         servicesTeaser: {
@@ -482,18 +606,66 @@ export const translations = {
                 {
                     title: "Landing Page",
                     text1: "A landing page is a single-page website developed to present your products or services.",
-                    text2: "During development, we focus on marketing structure, unique design.",
+                    text2: "During development, we focus on marketing structure, unique design and fast performance.",
                     image: "https://images.unsplash.com/photo-1551288049-bebda4e03875?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 2 weeks",
                     price: "from 5,000,000 UZS",
                 },
                 {
                     title: "Multi-page Website",
-                    text1: "A multi-page site reflects values and professional level.",
-                    text2: "It contains sections like about us, products, portfolio, contacts.",
+                    text1: "A multi-page site reflects values and professional level, building brand trust.",
+                    text2: "Contains sections: about us, products or services, portfolio, contacts.",
                     image: "https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1200&q=80",
                     time: "Timeline — from 4 weeks",
                     price: "from 12,000,000 UZS",
+                },
+                {
+                    title: "Catalog Site",
+                    text1: "A website designed to publish your product or service catalog online with advanced filtering and search.",
+                    text2: "Built-in shopping cart, product cards and admin panel included.",
+                    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+                    time: "Timeline — from 6 weeks",
+                    price: "from 20,000,000 UZS",
+                },
+                {
+                    title: "Online Store",
+                    text1: "A fully functional e-commerce platform with payment integration and order management.",
+                    text2: "We integrate Click, Payme and other payment systems.",
+                    image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
+                    time: "Timeline — from 8 weeks",
+                    price: "from 30,000,000 UZS",
+                },
+                {
+                    title: "Telegram Bot",
+                    text1: "Convenient solutions for automated customer service, request processing and reporting.",
+                    text2: "Sales funnel automation and customer retention features.",
+                    image: "https://images.unsplash.com/photo-1611746872915-64382b5c763a?auto=format&fit=crop&w=1200&q=80",
+                    time: "Timeline — from 2 weeks",
+                    price: "from 5,000,000 UZS",
+                },
+                {
+                    title: "Mobile App",
+                    text1: "Custom mobile apps for iOS and Android with high performance and intuitive interface.",
+                    text2: "Cross-platform solutions or native apps, App Store and Google Play deployment.",
+                    image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=1200&q=80",
+                    time: "Timeline — from 3 months",
+                    price: "from 100,000,000 UZS",
+                },
+                {
+                    title: "SEO Optimization",
+                    text1: "Comprehensive search engine optimization work to achieve top rankings.",
+                    text2: "Technical SEO, content optimization and backlink strategy.",
+                    image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=1200&q=80",
+                    time: "Timeline — from 1 month",
+                    price: "from 5,000,000 UZS",
+                },
+                {
+                    title: "IT Support",
+                    text1: "Management of servers, domains and hosting. Maintenance and monitoring services.",
+                    text2: "24/7 support, security updates and reliable backup solutions.",
+                    image: "https://images.unsplash.com/photo-1558494949-ef526b0042a0?auto=format&fit=crop&w=1200&q=80",
+                    time: "Timeline — Subscription",
+                    price: "from 10,000,000 UZS",
                 }
             ]
         },
@@ -515,6 +687,20 @@ export const translations = {
                     link: "#",
                     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
                     results: ["Dashboard Analytics", "Admin Portal", "B2B Flow Integration"]
+                },
+                {
+                    category: "Restaurants",
+                    title: "Flavor House",
+                    link: "#",
+                    image: "https://images.unsplash.com/photo-1559329007-40df8a9345d8?auto=format&fit=crop&w=1200&q=80",
+                    results: ["Online Ordering System", "QR Menu Integration", "Customer Database"]
+                },
+                {
+                    category: "Healthcare",
+                    title: "MediCare Clinic",
+                    link: "#",
+                    image: "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=1200&q=80",
+                    results: ["Online Appointment Booking", "Doctor Profiles", "Telemedicine Panel"]
                 }
             ]
         },

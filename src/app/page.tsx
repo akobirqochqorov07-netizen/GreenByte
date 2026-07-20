@@ -45,6 +45,17 @@ export default function Home() {
     rocket: Rocket,
   };
 
+  const clientLogos: Record<string, string> = {
+    google: "https://cdn.simpleicons.org/google/A3A3A3",
+    microsoft: "https://cdn.simpleicons.org/microsoft/A3A3A3",
+    amazon: "https://cdn.simpleicons.org/amazon/A3A3A3",
+    meta: "https://cdn.simpleicons.org/meta/A3A3A3",
+    apple: "https://cdn.simpleicons.org/apple/A3A3A3",
+    netflix: "https://cdn.simpleicons.org/netflix/A3A3A3",
+    spotify: "https://cdn.simpleicons.org/spotify/A3A3A3",
+    tesla: "https://cdn.simpleicons.org/tesla/A3A3A3",
+  };
+
   // Background theme timer — alternates between vibrant (green+violet) and pure black
   const [bgVibrant, setBgVibrant] = useState(true);
   useEffect(() => {
@@ -216,13 +227,19 @@ export default function Home() {
               <div className="client-marquee flex w-max gap-3 sm:gap-4">
                 {/* duplicated list for seamless loop */}
                 {[...t.clients.list, ...t.clients.list, ...t.clients.list, ...t.clients.list].map((client, i) => {
-                  const Icon = clientIcons[client.icon] ?? Landmark;
                   return (
                     <div
                       key={i}
                       className="flex flex-col items-center justify-center gap-2 w-[104px] sm:w-[120px] h-[104px] sm:h-[120px] border border-white/[0.06] rounded-2xl bg-white/[0.015] hover:border-white/20 transition-colors shrink-0"
                     >
-                      <Icon className="w-7 h-7 sm:w-8 sm:h-8 text-white/45" strokeWidth={1.3} />
+                      {client.logo && (
+                        <img
+                          src={client.logo}
+                          alt={client.label}
+                          className="w-7 h-7 sm:w-8 sm:h-8 object-contain opacity-45"
+                          loading="lazy"
+                        />
+                      )}
                       <span className="text-[11px] sm:text-[12px] font-light text-white/45 tracking-wide">{client.label}</span>
                     </div>
                   );

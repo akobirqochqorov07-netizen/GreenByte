@@ -45,13 +45,13 @@ export default function Navbar() {
                     <nav className="flex flex-col space-y-6">
                         <Link
                             href="/"
-                            className={`text-[15px] font-light transition-colors ${pathname === '/' ? 'text-white font-medium' : 'text-[#A3A3A3] hover:text-white'}`}
+                            className={`text-[15px] font-light transition-colors ${pathname === '/' ? 'text-white' : 'text-[#A3A3A3] hover:text-white'}`}
                         >
                             {t.sidebar.about}
                         </Link>
                         <Link
                             href="/services"
-                            className={`text-[20px] font-normal transition-colors ${pathname === '/services' ? 'text-white' : 'text-[#A3A3A3] hover:text-white'}`}
+                            className={`text-[15px] font-light transition-colors ${pathname === '/services' ? 'text-white' : 'text-[#A3A3A3] hover:text-white'}`}
                         >
                             {t.sidebar.services}
                         </Link>
